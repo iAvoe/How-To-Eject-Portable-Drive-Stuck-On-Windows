@@ -12,12 +12,12 @@ When this happens, you get "Problem Ejecting USB ... Storage Device" error
 ## Steps
 
 1. Make sure there actually is no application using your disk
-  - Check if there is an application stopped ejection: Event Viewer → Custom Views → Administrative Events
+    - Check if there is an application stopped ejection: Event Viewer → Custom Views → Administrative Events
 2. Put this drive to "Offline" in Device Manager → Disk Management
-  - Note that this step can be disruptive, make sure there really isn't any application using this drive
+    - Note that this step can be disruptive, make sure there really isn't any application using this drive
 3. Put this drive back to "Online" in the same way
 4. Now you can eject this drive normally
 
-<center><img loading="lazy" src="eightforums.com" alt="Disk Management"></center>
+<center><img loading="lazy" src="eightforums.com.png" alt="Disk Management"></center>
 
 - **Image Source:** [eightforums.com](https://www.eightforums.com/threads/disk-set-as-offline-or-online.53106/)
